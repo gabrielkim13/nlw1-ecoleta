@@ -1,0 +1,19 @@
+{
+  "name": "nlw1-ecoleta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "Gabriel Kim <gabrielkim13@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@nlw1-ecoleta/eslint-config": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
